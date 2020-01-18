@@ -1,8 +1,8 @@
 import React from "react";
 
-import HelloPage from "./components/pages/helloPage/helloPage"
-import SigninPage from "./components/pages/loginPages/signinPage"
-import SignupPage from "./components/pages/loginPages/signupPage"
+import HelloPage from "./components/pages/helloPage/HelloPage"
+import SigninPage from "./components/pages/loginPages/SigninPage"
+import SignupPage from "./components/pages/loginPages/SignupPage"
 import ContentPage from "./components/pages/contentPage/contentPage"
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
