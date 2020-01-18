@@ -1,9 +1,9 @@
 import React from "react";
 
-import HelloPage from "./components/pages/helloPage/HelloPage"
-import SigninPage from "./components/pages/loginPages/SigninPage"
-import SignupPage from "./components/pages/loginPages/SignupPage"
-import ContentPage from "./components/pages/contentPage/contentPage"
+import HelloPage from "./components/pages/HelloPage/HelloPage"
+import SigninPage from "./components/pages/LoginPages/SigninPage"
+import SignupPage from "./components/pages/LoginPages/SignupPage"
+import ContentPage from "./components/pages/ContentPage/ContentPage"
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 const App = () => {
