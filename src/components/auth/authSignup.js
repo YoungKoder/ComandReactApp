@@ -1,7 +1,7 @@
-import React from "react";
+import React from "./node_modules/react";
 
-function AuthSignup() {
+function AuthSignUp() {
   return <h1>Sign Up Page</h1>;
 }
 
-export default AuthSignup;
+export default AuthSignUp;

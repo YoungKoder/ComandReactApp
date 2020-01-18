@@ -1,13 +1,13 @@
-import React from "react";
+import React from "./node_modules/react";
 
-import "./contentPage.css";
+import "./ContentPage.css";
 
-import UserProfile from "../user/UserPage";
-import Newslist from "../news/Newslist";
-import Eventslist from "../events/EventsList";
+import UserProfile from "../User/UserProfile";
+import Newslist from "../News/NewsList";
+import Eventslist from "../Events/EventList";
 
-import { BrowserRouter as Router, Route} from "react-router-dom";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "./node_modules/react-router-dom";
+import { Link } from "./node_modules/react-router-dom";
 
 const ContentPage =()=>{
     return (
