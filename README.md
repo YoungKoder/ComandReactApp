@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Правила нейминга
+
+Во время внесения корректировок в содержание или структуру компонентов следует придерживаться единого правила нейминга - PascalCase
+
 ## Available Scripts
 
 In the project directory, you can run:

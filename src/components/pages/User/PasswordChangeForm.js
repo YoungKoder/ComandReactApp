@@ -1,6 +1,6 @@
 import React from "react";
 
-const ChangePasswordForm = props => {
+const PasswordChangeForm = props => {
   return (
     <form className="form-change-password">
       <Field
@@ -37,4 +37,4 @@ const ChangePasswordForm = props => {
   );
 };
 
-export default ChangePasswordForm;
+export default PasswordChangeForm;

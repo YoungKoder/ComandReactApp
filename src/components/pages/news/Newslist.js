@@ -1,11 +1,11 @@
-import React from "react";
-import "./Newslist.css";
+import React from "./node_modules/react";
+import "./NewsList.css";
 
 
-function Newslist() {
+function NewsList() {
   return (
     <h1>Newslist</h1>
   );
 }
 
-export default Newslist;
+export default NewsList;
