@@ -25,5 +25,5 @@ export default class HelloPage extends Component {
             
         )
     }
-    
+
 }

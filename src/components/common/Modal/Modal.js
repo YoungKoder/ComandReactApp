@@ -11,7 +11,7 @@ const Modal = ({
     let modal = (
         <div className="overlay fade">
             <div className="popup">
-                <div className="popup-close"><Button buttonSie="btn--small" onClick={onClose}>X</Button></div>
+                <div className="popup-close"><Button buttonSie="btn--small" onClick={onClose}>x</Button></div>
                 <div>
                     {children}
                 </div>
