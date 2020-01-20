@@ -13,6 +13,7 @@ const styles = [
 ];
 
 const sizes = [
+    "btn--small",
     "btn--medium",
     "btn--large",
 ];
@@ -38,7 +39,6 @@ const Button = ({
     }else{
         classesNames+= " " + sizes[0];
     }
-
 
     return(
         <button 
