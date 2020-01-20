@@ -3,7 +3,7 @@ import React from "react";
 import HelloPage from "./components/pages/helloPage/HelloPage"
 import SigninPage from "./components/pages/loginPages/SigninPage"
 import SignupPage from "./components/pages/loginPages/SignupPage"
-import ContentPage from "./components/pages/contentPage/contentPage"
+import ContentPage from "./components/pages/contentPage/ContentPage"
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 const App = () => {

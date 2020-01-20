@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./contentPage.css";
+import "./ContentPage.css";
 
 import UserProfile from "../user/UserPage";
 import Newslist from "../news/Newslist";
