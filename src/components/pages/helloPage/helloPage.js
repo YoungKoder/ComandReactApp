@@ -2,10 +2,13 @@ import React, { Component } from "react";
 
 import Button from "../../common/Button/Button";
 import Modal from "../../common/Modal/Modal";
-
+import Drobdown from "../../common/Drobdown/DrobdownList/Drobdown"
 export default class HelloPage extends Component {
     state ={
-        showModal:false
+        showModal:false,
+        drobdownItems: [
+            {labelForOption:"LogOut", id: 1}
+        ]
     }
 
     render(){
@@ -21,6 +24,7 @@ export default class HelloPage extends Component {
                 <Modal isOpen = {this.state.showModal} onClose={()=>{this.setState({showModal:false})}}>
                     sodkmdflds
                 </Modal>
+                <Drobdown label={<p>User</p>} menuItems={this.state.drobdownItems}/>
             </div>
             
         )
